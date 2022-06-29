@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #313131;
+}
+canvas{
+    box-shadow: -3px 2px 9px 6px black;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+.tools{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tools .color-field{
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0 15px;
+    
+}
+
+.tools .button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.color-picker{
+    margin: 0 15px;
+    height: 50px;
+}
+
+.pen-range{
+    margin: 0 15px;
+}
